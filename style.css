@@ -1,0 +1,101 @@
+body{
+   
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+ background: #35424a;
+ color: #ffffff;
+ padding: 20px 0;
+ text-align: center;
+ font-size: 30px;
+ font-weight: bold;
+
+}
+
+.hero{
+   margin-top: 10px;
+    padding-top: 10px;
+margin-bottom: 15px;
+}
+h1{
+    margin: 0;
+    text-align: center;
+}
+.one ul{
+    display: block;
+
+}
+.one li {
+ width: 95%;
+ margin-top: 15px;
+ font-size: 1rem;
+border: 1px solid white;
+border-radius: 8px;
+box-sizing: border-box;
+list-style: none;
+text-align: center; 
+ display: flex;
+background-color: white;
+box-shadow: 5px 3px 3px black;
+padding: 0;
+}
+.one li:hover{
+    color: black;
+    background-color: aqua;
+    box-shadow:10px 5px 5px black;
+    border-color: white;
+}
+.one h3{
+  padding-left: 50px;
+}
+#icon{
+    height: 30px;
+    width: 30px;
+    padding-top: 25px;
+    padding-left: 20px;
+    color: red;
+}
+#symbol{
+    height: 30px;
+    width: 30px;
+    padding-top: 25px;
+    padding-left: 20px;
+    color: green;
+}
+footer{
+   
+    text-align: center;
+    padding: 10px 0;
+    color: beige;
+    padding-top: 25px;
+    background-color: rgb(24, 23, 23);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+   
+}
+
+ @media (max-width: 600px) {
+    header {
+        padding: 15px 0;
+    }
+    .one li {
+         width: 90%; 
+        height: 40px;
+        margin: 10px 0; 
+        margin-left: 3px;
+        font-size: 12px; 
+       
+    } 
+    #symbol{
+        padding-top: 13px;
+    }
+    #icon{
+        padding-top: 13px;
+    }
+   
+}
